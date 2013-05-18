@@ -12,10 +12,10 @@
 	}
 	$mainContent =  "
 		<div class='apartment'>
-			<h1>Rapplid</h1>
+			<h1>Local Rhino</h1>
 			<br/>
 			<p>
-				Are you still using pen and paper for your rental applications?<br/>Rapplid is the easiest and fastest way for landlords and property managers to find the best prospective tenants. From the initial listing all the way through the application process, Rapplid gives landlords the tools to accept applications online, quickly review applicants, check credit history and process applications. Renters also benefit by doing away with the hassle of filling out multiple forms by using Rapplid's simple and easy online application to apply to units from their computers or even their phones!<br/>
+				Are you still using pen and paper for your rental applications?<br/>Local Rhino is the easiest and fastest way for landlords and property managers to find the best prospective tenants. From the initial listing all the way through the application process, Local Rhino gives landlords the tools to accept applications online, quickly review applicants, check credit history and process applications. Renters also benefit by doing away with the hassle of filling out multiple forms by using Local Rhino's simple and easy online application to apply to units from their computers or even their phones!<br/>
 			 	{$signupText} 
 			 </p>
 			 <br/>

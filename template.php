@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	$appName = "Rapplid";
+	$appName = "Local Rhino";
 	
 	$homeURL = '.';
 	$addPropertyURL = "addProperty.php";
@@ -47,10 +47,11 @@
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">-->
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 		<script src="js/add2home.js?k=0"></script>		
 		<script src="js/default.js"></script>	
+		<script src="js/parsley.js"></script>	
 		<?php
 			echo $head;
 		?>
@@ -66,7 +67,7 @@
 						<span class="icon-bar"></span>
 					</a>
 					<a class="brand" href=".">
-						<span class="homeIcon">Rapplid</span>
+						<span class="homeIcon">Local Rhino</span>
 					</a>
 					<div class="nav-collapse">
 						<ul class="nav">

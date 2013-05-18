@@ -2,7 +2,7 @@
 	$head = "
 		<script type='text/javascript'>
 		  $(document).ready(function() {
-			  document.rentalApp.firstName.focus();
+			 // document.rentalApp.firstName.focus();
 			});
 		</script>
     ";
@@ -67,9 +67,9 @@
 			  <li><a href='#tabs-3' id='tab3'>3</a></li>
 		   </ul>
 		   <div id='tabs-1' class='tabContent'>
-		   		<form method='get' name='rentalApp' validate='validate' novalidate>
+		   		<form method='get' name='rentalApp' novalidate data-validate='parsley'>
 					<label for='firstName'>First Name: </label>
-					<input required='required' name='firstName' id='firstName' type='text' maxlength='20' value='' placeholder='First Name'>
+					<input data-trigger='change' required='required' name='firstName' id='firstName' type='text' maxlength='20' value='' placeholder='First Name'>
 	
 					<label for='middleName'>Middle Name: </label>
 					<input name='middleName' id='middleName' type='text' maxlength='20' value=''>
