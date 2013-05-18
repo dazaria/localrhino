@@ -170,7 +170,8 @@ ul.applicationSteps li a{
 	text-decoration:none;
 	font-weight:bold;
 	float:left;
-	user-select:none
+	user-select:none;
+	outline:0;
 }
 ul.applicationSteps li label{
 	display:inline-block;
@@ -179,7 +180,7 @@ ul.applicationSteps li label{
 	font-size:18px;
 	font-weight:bold;
 }
-ul.applicationSteps li.ui-tabs-selected a, ul.applicationSteps li.ui-state-hover a{
+ul.applicationSteps li.ui-tabs-selected a, ul.applicationSteps li.ui-state-hover a, ul.applicationSteps li.ui-tabs-active a{
 	background:orange;
 }
 .tabContent{
