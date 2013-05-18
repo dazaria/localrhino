@@ -5,6 +5,10 @@
 	padding-top: 60px;
 	position: relative;
 }*/
+
+/*Utility*/
+.fr{float:right;}
+.fl{float:left;}
 .navbar-inner {
     border-radius: 0 0 0 0;
 }

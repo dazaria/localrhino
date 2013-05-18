@@ -44,7 +44,7 @@
 		<h1>Enter Property Information</h1>
 		<br />
 		<div>
-			<form method='post' action='#' name='propertyForm' id='target' validate='validate' novalidate>
+			<form method='post' action='#' name='propertyForm' id='target' novalidate data-validate='parsley'>
 				<div class='grayContainer'>
 					<label for='searchTextField'>Address:</label>
 					<input id='searchTextField' name='searchTextField' type='text' placeholder='e.g. 111 Main St.' value='{$address}' autofocus='autofocus' required='required'/>

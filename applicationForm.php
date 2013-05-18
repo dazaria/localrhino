@@ -61,8 +61,7 @@
 	$applicationForm =  "
 		<div id='tabs'>
 		   <ul class='applicationSteps'>
-		      <li><label>Steps: </label></li>
-			  <li><a href='#tabs-1' id='tab1'>1</a></li>
+			  <li style='margin-left:100px;'><a href='#tabs-1' id='tab1'>1</a></li>
 			  <li><a href='#tabs-2' id='tab2'>2</a></li>
 			  <li><a href='#tabs-3' id='tab3'>3</a></li>
 		   </ul>
@@ -70,7 +69,7 @@
 		   		<form method='get' name='rentalApp' novalidate data-validate='parsley'>
 		   			<span style='display:inline-block;width:400px;'>
 						<label for='firstName'>First Name: </label>
-						<input data-trigger='change' data-focus='none' required='required' name='firstName' id='firstName' type='text' maxlength='20' value='' placeholder='First Name'>
+						<input required='required' name='firstName' id='firstName' type='text' maxlength='20' value='' placeholder='First Name'>
 		
 						<label for='middleName'>Middle Name: </label>
 						<input name='middleName' id='middleName' type='text' maxlength='20' value=''>
